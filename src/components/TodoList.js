@@ -1,7 +1,9 @@
 import React, { Component, Fragment } from 'react';
 
-import { graphql, compose } from 'react-apollo';
+import { graphql } from 'react-apollo';
 import gql from 'graphql-tag';
+import compose from "lodash.flowright";
+//import * as compose from 'lodash.flowright';
 
 class TodoList extends Component {
   state = {
